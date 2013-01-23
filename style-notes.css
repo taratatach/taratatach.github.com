@@ -1,0 +1,22 @@
+/* Notes */
+.full .notes {
+  display:none;
+  }
+.list .notes {
+  background: #fff;
+  padding: 5px 10px;
+  z-index: 10;
+  display: block;
+  position: absolute;
+  bottom: -500px;
+  left: 50px;
+  right: 50px;
+  -webkit-transition: bottom .5s;
+  -moz-transition: bottom .5s;
+  -ms-transition: bottom .5s;
+  -o-transition: bottom .5s;
+  transition: bottom .5s;
+}
+.list .slide:hover .notes {
+  bottom: 15px;
+}
